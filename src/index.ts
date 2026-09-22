@@ -26,4 +26,9 @@ app.get('/ayoub', (req, res) => {
   res.send('Route de Ayoub !');
 });
 
+app.get('/merci', (req, res) => {
+  res.send('Route de Merci !');
+});
+
+
 export default app;
