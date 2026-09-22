@@ -14,4 +14,8 @@ app.listen(port, () => {
   console.log(`Serveur lancé sur http://localhost:${port}`);
 });
 
+app.get('/ayoub', (req, res) => {
+  res.send('Route de Ayoub !');
+});
+
 export default app;
