@@ -10,6 +10,10 @@ app.get('/sami', (_req, res) => {
   res.send("Route de Sami !");
 });
 
+app.get('/gérimie', (_req, res) => {
+  res.send("Route de Gérimie !");
+});
+
 app.get('/', (_req, res) => {
   res.send('Hello TypeScript + Express!');
 });
