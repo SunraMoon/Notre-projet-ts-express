@@ -15,4 +15,4 @@ export default {
       statements: 70,
     },
   },
-};Z
+};
