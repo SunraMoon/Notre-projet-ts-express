@@ -4,10 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "build": "tsc",
-  "start": "node dist/index.js",
-  "dev": "tsx watch src/index.ts"
-},
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx watch src/index.ts",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -16,10 +18,13 @@
     "express": "^5.2.1"
   },
   "devDependencies": {
+    "@jest/globals": "^30.5.2",
     "@types/express": "^5.0.6",
     "@types/node": "^26.6.2",
+    "jest": "^30.5.2",
+    "ts-jest": "^29.4.14",
+    "ts-node": "^10.9.2",
     "tsx": "^4.23.15",
-    "typescript": "^7.0.2"
+    "typescript": "^5.9.3"
   }
-  
 }
